@@ -65,18 +65,18 @@ nav ul li{
 }
 
 #Intro1{
+	color: #ffffff;
 	font-family: 'Cardo', serif;
 	font-weight: bold;
 	font-size: 36px;
-	color: #ffffff;
 }
 
 
 #Intro2{
+	color: #ffcccc;
 	font-family: 'Cardo', serif;
 	font-weight: bold;
 	font-size: 20px;
-	color: #ffcccc;
 }
 
 
@@ -89,36 +89,26 @@ main{
 }
 
 #Services {
+	color: #cc9900;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	font-weight: bolder;
-	color: #cc9900;
 }
 
 
 .services-box {
-	height: 550px;
+	margin: 30px 0 80px 0;
 	text-align: center;
 }
 
 
-#WebDevText {
+#WebDevText, #WeddingText {
 	text-align: right;
-	margin: 70px 0px 0 0px;
-	float:left;
-}
-
- #WeddingText {
-	text-align: right;
-	margin: 30px 0px 0 0px;
-	float:left;
 }
 
 #IllustrationText {
-	margin: 70px 0px 0 0px;
 	text-align: left;
-	float:left;
 }
 
 .serviceDescription {

@@ -1,4 +1,8 @@
 
+html{
+	max-width: 1064px;
+}
+
 /***** GRID (calculated on the base of 12 parts) *****/
 .full-width, .services-box {
 	width: 100%;
@@ -69,6 +73,7 @@ a:link, a:visited{
 }
 
 #Intro1{
+	background-color: #ff6666; 
 	color: #ffffff;
 	font-family: 'Cardo', serif;
 	font-weight: bold;
@@ -77,6 +82,7 @@ a:link, a:visited{
 
 
 #Intro2{
+	background-color: #ff6666; 
 	color: #ffcccc;
 	font-family: 'Cardo', serif;
 	font-weight: bold;

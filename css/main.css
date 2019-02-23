@@ -1,0 +1,147 @@
+
+/***** GRID (calculated on the base of 12 parts) *****/
+.full-width, .services-box {
+	width: 100%;
+	margin: 0 auto;
+  	float: left;
+}
+
+.half-width {
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+}
+
+.five-width {
+	width: 41.6%;
+	margin: 0 auto;
+	float: left;
+}
+
+.two-width {
+	width: 16.6%;
+	margin: 0 auto;
+	float: left;
+}
+
+
+/***** NAVIGATOR BAR *****/
+
+#NavBar{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 10px;
+	height: 160px;
+	padding:0 10px 0 10px;
+}
+
+
+
+nav ul li{
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+	float: right;
+	font-size: 20px; 
+	margin: 0 10px 0 10px;
+}
+
+
+/****** BANNER *******/
+
+#bannerBG {
+  	background: #ff6666;
+  	height:300px;
+  	margin-top:100px;
+}
+
+#ProfilePic {
+	height: 400px;
+}
+
+#AboutIntro {
+	float:right;
+	margin: 150px 50px 0px -70px;
+}
+
+#Intro1{
+	font-family: 'Cardo', serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+
+#Intro2{
+	font-family: 'Cardo', serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: #ffcccc;
+}
+
+
+/****** SERVICES *******/
+
+main{
+	font-family: 'Cardo', serif;
+	margin:0 20px 0 20px;
+}
+
+#Services {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #cc9900;
+}
+
+
+.services-box{
+	height: 300px;
+	margin: 10px 30px 10px 30px;
+	text-align: center;
+	display: inline;
+}
+
+#WebDevLogo, #WeddingLogo, #IllustLogo {
+	width: 300px;
+	margin: 0px 20px 0px 20px;
+	display: inline-block;
+	float:none;
+}
+
+
+#WebDevText, #WeddingText {
+	text-align: right;
+	padding: 0 10px 0 100px;
+	display: inline-block;
+	float:none;
+}
+
+#IllustrationText {
+	padding: 0 100px 0 10px;
+	display: inline-block;
+	text-align: left;
+	float:none;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 15px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300px;
+	font-style: italic;
+	font-size: 15px;
+	color: #990000;
+	padding: 0 0 0 0;
+	margin: 5px 0 0 0;
+}
+
+

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
       <meta charset="utf-8">
-      <title>Mercedes Vega</title>
+      <title>Mercedes Vega Villar</title>
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/main.css">
       <link href="https://fonts.googleapis.com/css?family=Cardo|Montserrat:300i,400,800|Pacifico" rel="stylesheet">
@@ -16,7 +16,7 @@
     		<div class="full-width" id="NavBar">
 
     			<div class="five-width" id="myName">
-    				<h1> &lt;Mercedes Vega&gt; </h1>
+    				<h1> &lt;Mercedes Vega Villar&gt; </h1>
     			</div>
 
     			<div class="two-width">
@@ -25,15 +25,15 @@
 
     			<nav class="five-width">
     				<ul>
-    					<li> &lt;contact&gt; </li>
-    					<li> &lt;about&gt; </li>
-    					<li> &lt;services&gt; </li>
+    					<li><a href="#contact"> &lt;contact&gt;</a></li>
+    					<li><a href="#about"> &lt;about&gt; </a></li>
+    					<li><a href="#services"> &lt;services&gt; </a></li>
     				</ul>
     			</nav>
     		</div>
 
 
-    		<!-- Banner with pic -->
+    		<!-- Banner with profile picture and intro -->
 
     		<div class="full-width" id="MainBanner">
 
@@ -41,14 +41,16 @@
     				<img src="img/hero-no-bg.png" alt="Mercedes Banner" id="ProfilePic">
     			</div>
 
-    			<div class="half-width" id="AboutIntro">
+    			<div class="half-width" id="intro">
     				<p id="Intro1"> I am a web developer/illustrator from Spain based in Queens, NY. </p>
     				<p id="Intro2"> Currently, I am working towards getting a PhD in Neuroscience, but I’m open to freelance work.</p>
     			</div>
 
+    			<!--This is just an empty rectangle to act as background (BG). I want it to be shorter than the profile picture, so I can't just add a background to the element in which the profile picture is -->
     			<div id='bannerBG'>
     				
     			</div>
+
     		</div>
 
     	</header>
@@ -57,70 +59,104 @@
 
     	<main>
 
-    		<!-- What can I do for you? -->
-    		<div class="full-width"  id="Services">
-    			<p> what can I do for you? </p>
-    		</div>
+    		<section class="full-width"  id="services">
+	    		<!-- What can I do for you? -->
+	    		<div class="full-width"  id="serv-header">
+	    			<h2> what can I do for you? </h2>
+	    		</div>
 
-    		<!-- Web development -->
-    		<div class="services-box">
+	    		<!-- Web development -->
+	    		<div class="services-box">
 
-    			<!-- Web dev text -->
-    			<div class="half-width"  id="WebDevText">
-    				<h2> Branding and web development </h2>
-    				<h3> Get on the Internet and do it in style </h3>
-    				<p class="serviceDescription"> Do you have a small business, a project or a crazy idea that you want to share with the world? I can help you define your identity and claim your spot on the Internet. Tell me about your vision, your style, your target audience and I can take you from logo to website. I’ll hand-code the website from scratch to make it lean, fast and tailored to your needs. </p>
-    			</div>
+	    			<!-- Web dev text -->
+	    			<div class="half-width"  id="WebDevText">
+	    				<h3> Branding and web development </h3>
+	    				<h4> Get on the Internet and do it in style </h4>
+	    				<p class="serviceDescription"> Do you have a small business, a project or a crazy idea that you want to share with the world? I can help you define your identity and claim your spot on the Internet. Tell me about your vision, your style, your target audience and I can take you from logo to website. I’ll hand-code the website from scratch to make it lean, fast and tailored to your needs. </p>
+	    			</div>
 
-    			<!-- Web dev logo -->
-    			<figure class="half-width"  id="WebDevLogo">
-    				<img src='img/web-dev.svg' alt="Web development Logo"> 
-    			</figure>
+	    			<!-- Web dev logo -->
+	    			<figure class="half-width"  id="WebDevLogo">
+	    				<img src='img/web-dev.svg' alt="Web development Logo"> 
+	    			</figure>
 
-    		</div>
+	    		</div>
 
-    		<!-- Illustration -->
-    		<div class="services-box">
+	    		<!-- Illustration -->
+	    		<div class="services-box">
 
-    			<!-- Illustration logo -->
-    			<figure class="half-width" id="IllustLogo">
-    				<img src='img/illustration.svg' alt="Illustration Logo" > 
-    			</figure>
+	    			<!-- Illustration logo -->
+	    			<figure class="half-width" id="IllustLogo">
+	    				<img src='img/illustration.svg' alt="Illustration Logo" > 
+	    			</figure>
 
-    			<!-- Illustration text -->
-    			<div class="half-width"  id="IllustrationText">
-    				<h2> Illustration for businesses and brands </h2>
-    				<h3> Bring your brand to life </h3>
-    				<p class="serviceDescription"> Stand out by adding illustrations to your website, business cards, promotional products, etc. Personalized illustrations give your business a personality, making it memorable and fun. Also, possibilities are endless with drawings! Do you want a cute cupcake-eating platypus to represent your brand? You got it! </p>
-    			</div>
+	    			<!-- Illustration text -->
+	    			<div class="half-width"  id="IllustrationText">
+	    				<h3> Illustration for businesses</h3>
+	    				<h4> Bring your brand to life </h4>
+	    				<p class="serviceDescription"> Stand out by adding illustrations to your website, business cards, promotional products, etc. Personalized illustrations give your business a personality, making it memorable and fun. Also, possibilities are endless with drawings! Do you want a cute cupcake-eating platypus to represent your brand? You got it! </p>
+	    			</div>
 
-    		</div>
+	    		</div>
 
 
-    		<!-- Wedding invitations -->
-    		<div class="services-box">
+	    		<!-- Wedding invitations -->
+	    		<div class="services-box">
 
-    			<!-- Wedding text -->
-    			<div class="half-width"  id="WeddingText">
-    				<h2> Stationary for weddings and other events </h2>
-    				<h3> Add the wow-factor to your big day </h3>
-    				<p class="serviceDescription"> Your wedding invitation determines the first impression you and your future spouse make as a couple and hosts. Custom hand-crafted invitations, programs, seating plans, etc. give you a platform to express who you are and it lets your guests know what to expect of your event. Don't be boring. Take that opportunity to stand out and do something unique. </p>
-    			</div>
+	    			<!-- Wedding text -->
+	    			<div class="half-width"  id="WeddingText">
+	    				<h3> Stationary for weddings</h3>
+	    				<h4> Add the wow-factor to your big day </h4>
+	    				<p class="serviceDescription"> Your wedding invitation determines the first impression you and your future spouse will make as a couple and hosts. Custom hand-crafted invitations, programs, seating plans, etc. give you a platform to express who you are and it lets your guests know what to expect of your event. Don't be boring. Take that opportunity to stand out and do something unique. </p>
+	    			</div>
 
-    			<!-- Wedding logo -->
-    			<figure class="half-width" id="WeddingLogo">
-    				<img src='img/wedding.svg' alt="Wedding Invitation Logo" > 
-    			</figure>
+	    			<!-- Wedding logo -->
+	    			<figure class="half-width" id="WeddingLogo">
+	    				<img src='img/wedding.svg' alt="Wedding Invitation Logo" > 
+	    			</figure>
 
-    		</div>
+	    		</div>
+    		</section>
 
     		<!-- About -->
-    		<div class="full-width">
-    		</div>
+    		<section class="full-width"  id="about">
+	  
+	    		<h2 id="aboutheader"> about me </h2>
+
+	    		<p class="AboutParagraph"> Even though I am a scientist, I’ve always been an illustrator at heart. When I’m not working in the lab, you can find me drawing and making fun illustrations. </p>
+	    		<p class="AboutParagraph"> I started to learn how to make websites because I thought web development would be a good medium to combine my analytical and creative skills. Also, I love that I can use my background in human cognition and behavior to come up with optimal designs. </p>
+	    		<p class="AboutParagraph"> If you like my style and you think I could help you with your project, please contact me! I am still learning so I won’t commit unless I know I can do a great job.</p>
+
+    		</section>
 
     	</main>
 
     	<footer>
+    		<!-- Connect section -->
+    		<section class="full-width"  id="connect">
+
+    			<!-- "let's connect" header -->
+	    		<div class="full-width"  id="connect-header">
+	    			<h2 id="connectHeader"> let's connect </h2>
+	    		</div>
+
+	    		<!-- Connect icons -->
+	    		<div class="full-width" id="icons">
+
+	    			<a href="mailto:mercedes@yomercedes.nyc">
+	    				<img src="img/email-icon.svg" alt="Email icon" id="email-icon">
+	    			</a>
+
+	    			<a href="https://www.linkedin.com/in/mercedes-vega-villar-0233b625/">
+	    				<img src="img/linkedin-icon.svg" alt="LinkedIn icon" id="linkedin-icon">
+	    			</a>
+
+	    			<a href="https://github.com/vegmer">
+	    				<img src="img/github-icon.svg" alt="Github icon" id="github-icon">
+	    			</a>
+
+	    		</div>
+    		</section>
 
     	</footer>
     

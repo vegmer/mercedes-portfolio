@@ -1,3 +1,8 @@
+body{
+	font-family: 'Cardo', serif;
+	font-size: 20px;
+}
+
 
 /***** GRID (calculated on the base of 12 parts) *****/
 .full-width, .services-box {
@@ -97,39 +102,36 @@ main{
 
 
 .services-box{
-	height: 300px;
-	margin: 10px 30px 10px 30px;
+	height: 500px;
 	text-align: center;
-	display: inline;
 }
 
-#WebDevLogo, #WeddingLogo, #IllustLogo {
-	width: 300px;
-	margin: 0px 20px 0px 20px;
-	display: inline-block;
-	float:none;
+figure {
+	margin: 0px 0px 0px 0px;
 }
 
 
 #WebDevText, #WeddingText {
 	text-align: right;
-	padding: 0 10px 0 100px;
-	display: inline-block;
-	float:none;
+	margin: 70px 0px 0 0px;
+	float:left;
 }
 
 #IllustrationText {
-	padding: 0 100px 0 10px;
-	display: inline-block;
+	margin: 70px 0px 0 0px;
 	text-align: left;
-	float:none;
+	float:left;
+}
+
+.serviceDescription {
+	padding: 0 20px 0 20px;
 }
 
 h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bolder;
 	font-size: 15px;
-	padding: 0 0 0 0;
+	padding: 0 20px 0 20px;
 	margin: 0 0 0 0;
 }
 
@@ -140,7 +142,7 @@ h3{
 	font-style: italic;
 	font-size: 15px;
 	color: #990000;
-	padding: 0 0 0 0;
+	padding: 0 20px 0 20px;
 	margin: 5px 0 0 0;
 }
 

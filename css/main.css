@@ -1,13 +1,14 @@
 
-html{
-	max-width: 1064px;
+body{
+	margin: 0 auto;
 }
 
 /***** GRID (calculated on the base of 12 parts) *****/
 .full-width, .services-box {
 	width: 100%;
+	max-width: 1064px;
 	margin: 0 auto;
-  	float: left;
+	clear:both;
 }
 
 .half-width {
@@ -35,7 +36,7 @@ html{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bolder;
 	font-size: 10px;
-	height: 160px;
+	height: 100px;
 	padding:0 10px 0 10px;
 }
 
@@ -55,11 +56,19 @@ a:link, a:visited{
 	text-decoration: none;
 }
 
+#logo {
+	width:120px;
+	height: auto;
+}
+
 /****** BANNER *******/
 
 #bannerBG {
   	background: #ff6666;
   	height:300px;
+  	width: 100%;
+  	max-width: 1064px;
+  	margin:0 auto;
   	margin-top:100px;
 }
 
@@ -106,27 +115,30 @@ h2{
 
 #serv-header {
 	color: #cc9900;
-}
-
-
-.services-box {
-	margin: 30px 0 80px 0;
-	text-align: center;
+	padding: 30px 0 30px 0;
 }
 
 
 #WebDevText, #WeddingText {
+	margin-top: 30px;
 	text-align: right;
 }
 
 #IllustrationText {
-	text-align: left;
 	margin-top: 30px;
+	text-align: left;
+}
+
+#webdev-box, #illustration-box, #wedding-box{
+	margin: 30px 0 30px 0;
+	float:left;
 }
 
 .serviceDescription {
 	padding: 0 20px 0 20px;
 }
+
+
 
 h3{
 	font-family: 'Montserrat', sans-serif;
